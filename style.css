@@ -1,0 +1,196 @@
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background: #111;
+    color: #ffe066;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', 'Poppins', 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px #ffe06655, 0 2px 8px #000;
+    margin: 1.5rem auto 1rem auto;
+    background: rgba(255, 224, 102, 0.12);
+    padding: 0.2em 0.7em;
+    border-radius: 8px;
+    width: fit-content;
+    text-align: center;
+    display: block;
+}
+
+#main-nav {
+    background-image: url(../media/images/istockphoto-2212602159-2048x2048.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffe066;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+    border-bottom: 4px solid #ffe066;
+    border-radius: 0 0 24px 24px;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 8px #111, 0 2px 8px #ffe06655;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#main-nav a {
+    color: #ffe066;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    background: rgba(17, 17, 17, 0.55);
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    transition: background 0.2s, color 0.2s;
+}
+
+#main-nav a:hover {
+    background: #ffe066;
+    color: #111;
+    text-shadow: none;
+}
+
+#main-content {
+    background-image: url("../media/images/boys-and-girls-boxing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 1500px;
+}
+
+#programs {
+    background: rgba(17, 17, 17, 0.85);
+    border-radius: 14px;
+    padding: 2rem 1.5rem;
+    margin: 2rem auto 2rem auto;
+    box-shadow: 0 4px 24px rgba(255, 224, 102, 0.18);
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#programs h2 {
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+#programs ol {
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 1.5em;
+    color: #ffe066;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background: rgba(34, 34, 34, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(255, 224, 102, 0.10);
+    width: 100%;
+    max-width: 400px;
+}
+
+#programs ol li {
+    margin-bottom: 0.7em;
+    line-height: 1.5;
+}
+
+p {
+    font-family: 'Montserrat', 'Poppins', Arial, Helvetica, sans-serif;
+    color: #ffe066;
+    font-size: 1.13rem;
+    line-height: 1.7;
+    background: rgba(34, 34, 34, 0.85);
+    border-radius: 10px;
+    padding: 1em 1.5em;
+    margin: 1.2em auto;
+    max-width: 700px;
+    box-shadow: 0 2px 8px rgba(255, 224, 102, 0.08);
+    letter-spacing: 0.01em;
+    transition: background 0.2s, color 0.2s;
+}
+
+p a {
+    color: #ff3864;
+    text-decoration: underline;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+p a:hover {
+    color: #ffe066;
+    background: #222;
+    border-radius: 4px;
+    padding: 0 0.2em;
+}
+
+#coach-img {
+    display: block;
+    margin: 2rem auto 1rem auto;
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #ffe066;
+    box-shadow: 0 4px 24px rgba(255, 224, 102, 0.18), 0 2px 12px #111;
+    background: #222;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#coach-img:hover {
+    transform: scale(1.05) rotate(-2deg);
+    box-shadow: 0 8px 32px #ffe06699, 0 2px 12px #111;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 220px;
+    background-image: url("../media/images/Britain-flag.jpg");
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    animation: flag-move 20s linear infinite;
+    border-radius: 24px 24px 0 0;
+    box-shadow: 0 -2px 18px rgba(0,0,0,0.18);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(17, 17, 17, 0.82);
+    border-radius: 24px 24px 0 0;
+    z-index: 0;
+}
+
+footer > * {
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes flag-move {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}

@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main-nav {
-    background-image: url(../media/images/istockphoto-2212602159-2048x2048.jpg);
+    background-image: url(istockphoto-2212602159-2048x2048.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main-content {
-    background-image: url("../media/images/boys-and-girls-boxing.jpg");
+    background-image: url(boys-and-girls-boxing.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -159,7 +159,7 @@ footer {
     align-items: center;
     justify-content: center;
     min-height: 220px;
-    background-image: url("../media/images/Britain-flag.jpg");
+    background-image: url(Britain-flag.jpg);
     background-size: cover;
     background-position: 0 0;
     background-repeat: repeat-x;
